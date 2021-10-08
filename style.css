@@ -1,0 +1,111 @@
+body {
+	background: url(vino.jpg);
+}
+
+.titulo-principal:after {
+	content: "💋";
+}
+
+.titulo-centralizado {
+	text-align: center
+}
+
+h1 {
+ font-size: 70px;
+ font-family: 'Rock Salt', cursive;
+ color: white;
+text-shadow: 5px 5px black;
+text-align: center;
+}
+
+h2 {
+	font-size: 60px;
+	text-shadow: 3px 3px white;
+	font-family: 'Dancing Script', cursive;
+
+}
+
+h3 {
+	font-size: 60px;
+	text-shadow: 3px 3px white;
+	font-family: 'Dancing Script', cursive;
+}
+
+h4 {
+	font-size: 60px;
+	text-shadow: 3px 3px white;
+	font-family: 'Dancing Script', cursive;
+}
+
+
+h5 {
+	font-size: 60px;
+	text-shadow: 3px 3px white;
+	font-family: 'Dancing Script', cursive;
+}
+
+
+p {
+	text-align: center;
+	color: white;
+	font-size: 45px;
+}
+
+#missao {
+	font-size: 30px
+}
+
+strong {
+	color: #DAA520;
+}
+
+.itens {
+	font-style: italic
+	font-size: 40px;
+}
+
+
+ul {
+	font-size: 50px;
+	color: white;
+}
+
+.Pijama {
+	width: 492px;
+	height: 492px;
+}
+
+.sexy {
+	width: 492px;
+	height: 492px;
+}
+
+.sexyy {
+	width: 655px;
+	height: 655px;
+}
+
+.sexyyy {
+	width: 655px;
+	height: 655px;
+}
+
+@media screen and (max-width: 480px) { 
+    .itens {
+        width: auto;
+    }
+
+    h1 {
+    text-align: center;
+}
+
+   	nav {
+    position:static;
+}
+
+	.sexyyy, .sexyy, .sexy, .Pijama {
+    width: 100%
+}
+}
+
+
